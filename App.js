@@ -18,7 +18,6 @@ export default function App() {
     setTaskItems(itemsCopy)
   }
   
-
   return (
     <View style={styles.container}>
       {/* Added this scroll view to enable scrolling when list gets longer than the page */}
