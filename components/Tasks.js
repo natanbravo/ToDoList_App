@@ -13,6 +13,7 @@ const Task = (props) => {
   );
 };
 
+
 const styles = StyleSheet.create({
   item: {
     backgroundColor: "#FFF",

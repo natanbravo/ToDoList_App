@@ -17,6 +17,7 @@ export default function App() {
     itemsCopy.splice(index, 1);
     setTaskItems(itemsCopy)
   }
+  
 
   return (
     <View style={styles.container}>
