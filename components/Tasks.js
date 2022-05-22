@@ -11,6 +11,7 @@ const Task = (props) => {
       <View style={styles.round}></View>
     </View>
   );
+  
 };
 
 const styles = StyleSheet.create({

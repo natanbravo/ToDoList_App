@@ -28,6 +28,7 @@ export default function App() {
         keyboardShouldPersistTaps='handled'
       >
 
+
       {/* Today's Tasks */}
       <View style={styles.tasksWrapper}>
         <Text style={styles.sectionTitle}>Today's Tasks</Text>
