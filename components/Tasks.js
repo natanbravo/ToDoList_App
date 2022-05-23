@@ -1,4 +1,3 @@
-import react from "react";
 import { View, Text, StyleSheet } from "react-native";
 
 const Task = (props) => {
@@ -16,7 +15,7 @@ const Task = (props) => {
 
 const styles = StyleSheet.create({
   item: {
-    backgroundColor: "#FFF",
+    backgroundColor: "#0f70ff",
     padding: 15,
     borderRadius: 10,
     flexDirection: "row",
@@ -35,21 +34,22 @@ const styles = StyleSheet.create({
   square: {
     width: 30,
     height: 30,
-    backgroundColor: "#55BCF6",
-    opacity: 0.7,
+    backgroundColor: "#ffd93d",
+    opacity: 1,
     borderRadius: 5,
     marginRight: 15,
   },
   itemText: {
     maxWidth: "80%",
-    fontSize:18,
-    fontWeight:"400"
+    fontSize:20,
+    fontWeight:"600",
+    color:"#fff"
   },
   round: {
     width: 20,
     height: 20,
-    borderColor: "#55BCF6",
-    borderWidth: 2,
+    borderColor: "#ffd93d",
+    borderWidth: 4,
     borderRadius: 50,
   },
 });
